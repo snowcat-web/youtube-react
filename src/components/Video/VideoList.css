@@ -1,0 +1,13 @@
+
+.list-video ul {
+    padding-top: 74px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px, 1fr)); 
+}
+
+.list-video ul li{
+    width: 320px;
+    text-align: left;
+    padding-bottom: 20px;
+}
